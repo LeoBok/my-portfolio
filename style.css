@@ -32,8 +32,6 @@ a:visited {
     color: #141414;
 }
 
-/* HEADER */
-
 /* BODY */
 
 /* FIRST CONTAINER */
@@ -243,6 +241,10 @@ h3 {
 /* Page My Projects */
 
 /* HEADER */
+
+.title {
+    height: 900px;
+}
 
 .title h1 {
     margin-bottom: 15px;
@@ -458,6 +460,10 @@ h3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .title {
+        padding: 20px;
     }
 }
 
