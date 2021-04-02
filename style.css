@@ -1,0 +1,473 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to top, #e9defa 0%, #fbfcdb 100%);
+}
+
+header {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #424242;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #141414;
+}
+
+/* HEADER */
+
+/* BODY */
+
+/* FIRST CONTAINER */
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-picture {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.first-description {
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+h1 {
+    line-height: 38px;
+}
+
+.first-description p {
+    line-height: 32px;
+}
+
+h1,
+p,
+h2 {
+    color: #424242;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+h3:first-of-type {
+    padding-top: 30px;
+}
+
+.attention,
+h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #752121;
+}
+
+.my-passions {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code-img {
+    margin-top: 40px;
+    width: 200px;
+}
+
+.rock-img {
+    width: 200px;
+}
+
+.nature-img {
+    width: 200px;
+}
+
+.photographer-img {
+    width: 200px;
+}
+
+.end-box-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vertical-nav {
+    display: block;
+    margin-right: 5px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(199, 199, 199, 0.4);
+    width: 30px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 150px;
+    right: 5px;
+}
+
+.material-icons {
+    padding: 5px 2px;
+    font-size: 25px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #752121;
+    text-transform: uppercase;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-me-box {
+    border-radius: 5px;
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 6px #afafaf;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+
+.contact-form label,
+.contact-form input {
+    margin-bottom: 10px;
+}
+
+.contact-form input {
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 100%;
+    height: 25px;
+
+    border: 2px solid #424242;
+    border-radius: 5px;
+}
+
+.send-data {
+    background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%, #FEAC5E  100%)
+}
+
+.send-data {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 50%;
+   height: 30px;
+
+   border: none;
+   border-radius: 5px;
+ }
+
+ .send-data:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.send-data .material-icons {
+    font-size: 20px;
+}
+
+.social-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-contact h3 {
+    padding-top: 0;
+}
+
+.social-contact li {
+    text-align: left;
+}
+
+/* Tablet Version */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    body {
+        padding: 40px;
+    }
+
+    figure {
+        margin-bottom: 10px;
+    }
+
+    .first-description {
+        line-height: 27px;
+    }
+
+    .first-description h1 {
+        line-height: 38px;
+    }
+
+    .first-description p {
+        font-size: 20px;
+    }
+
+    .my-passions h2 {
+        font-size: 35px;
+    }
+
+    .attention,
+    h3 {
+        font-size: 27px;
+    }
+
+    .code-img {
+        margin-top: 40px;
+        width: 330px;
+    }
+    
+    .rock-img {
+        width: 330px;
+    }
+    
+    .nature-img {
+        width: 330px;
+    }
+    
+    .photographer-img {
+        width: 330px;
+    }
+
+    .icons-container {
+        width: 38px;
+    }
+
+    .material-icons {
+        font-size: 35px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+        height: 30px;
+        width: 75%;
+    }
+
+    .social-contact {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    .header-nav {
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .first-container {
+        padding: 10px;
+    }
+
+    .first-description {
+        width: 80%;
+    }
+
+    figure {
+        padding-bottom: 20px;
+    }
+
+    .profile-picture {
+        height: 300px;
+        padding: 10px;
+    }
+
+    h1 {
+        line-height: 50px;
+        font-size: 45px;
+    }
+
+    .first-description p {
+        font-size: 25px;
+        line-height: 38px;
+        padding: 20px 0;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .my-passions {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .my-passions h2 {
+        text-align: center;
+    }
+
+    .images-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+    }
+
+    .my-passions h3 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .code-img {
+        margin-top: 60px;
+    }
+
+    .end-box-icons {
+        display: none;
+    }
+
+    .vertical-nav {
+        display: block;
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-me-box {
+        padding: 60px;
+        margin-bottom: 40px;
+    }
+
+    .contact-form input[type="text"], 
+    .contact-form input[type="email"] {
+        margin-bottom: 40px;
+        padding: 17px;
+        width: 70%;
+    }
+
+    .send-data {
+        width: 30%;
+    }
+
+    .social-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .social-contact h3 {
+        font-size: 27px;
+    }
+
+    .social-contact p {
+        font-size: 17px;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-navbar {
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #919191; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c7c7c7; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #707070;
+  }
