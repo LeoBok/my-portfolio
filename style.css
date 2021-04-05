@@ -46,7 +46,7 @@ a:visited {
 
 .profile-picture {
     height: 200px;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .first-description {
@@ -219,7 +219,7 @@ h3 {
  }
 
  .send-data:hover {
-   background-position: right center; /* change the direction of the change here */
+   background-position: right center;
    color: #fff;
    text-decoration: none;
  }
