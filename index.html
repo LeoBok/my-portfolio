@@ -11,16 +11,6 @@
 </head>
 <body>
     <div id="top-anchor"></div>
-    <header>
-        <nav class="header-nav">
-            <ul class="navbar">
-                <li><a href="my-projects.html">My Projects</a></li>
-                <li><a href="#top-anchor">Home</a></li>
-                <li><a href="#anchor-contact">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    
     <div class="about-me">
         <figure>
             <img class="profile-picture" src="images/foto-profilo.jpg" alt="profile picture">
@@ -32,7 +22,7 @@
                I'm used to work in team and <span class="attention">listen</span> to
                other <span class="attention">people</span>, includind their <span class="attention">requests</span>, 
                is one of my <span class="attention">skill</span>.<br>
-               Now I'm going to learn Javascript and in a few months I'm ready to work. I can't wait!
+               I'm currently learning React.
             </p>
         </div>
 
@@ -68,13 +58,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="my-projects">
+            <h1>My personal projects:</h1>
+                <nav class="project-ul">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://leobok.github.io/JS-Counter-Project/">JS Counter</a>
+                    
+                        </li>
+                    </ul>
+                
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://leobok.github.io/air-pollution/dist/index.html">Air Quality App</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>        
+    </div>
         
         <nav class="vertical-nav">
             <div class="end-box-icons">
                 <div class="icons-container">
                     <span class="material-icons"><a href="#anchor-contact">alternate_email</a></span>
                     <span class="material-icons"><a href="#top-anchor">home</a></span>
-                    <span class="material-icons"><a href="my-projects.html" target="_blank">folder_open</a></span>
                 </div>
             </div>
         </nav>
@@ -90,7 +98,7 @@
             <form action="" method="GET">
                 <div class="contact-form">
                     <label for="full-name">Full Name</label>
-                    <input id="full-name" type="text" name="full-name" placeholder="Name & Surnname" required>
+                    <input id="full-name" type="text" name="full-name" placeholder="Name & Surname" required>
 
                     <label for="email">E-mail</label>
                     <input id="email" name="email" type="email" placeholder="youremail@example.com" required>
