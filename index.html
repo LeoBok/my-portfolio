@@ -61,32 +61,29 @@
 
         <div class="my-projects">
             <h1>My personal projects:</h1>
-                <nav class="project-ul">
-                    <ul>
-                        <li>
-                            <a target="_blank" href="https://leobok.github.io/JS-Counter-Project/">JS Counter</a>
-                    
-                        </li>
-                    </ul>
-                
-                    <ul>
-                        <li>
-                            <a target="_blank" href="https://leobok.github.io/air-pollution/dist/index.html">Air Quality App</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav class="project-ul">
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://leobok.github.io/JS-Counter-Project/">JS Counter</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://leobok.github.io/air-pollution/dist/index.html">Air Quality App</a>
+                    </li>
+                </ul>
+            </nav>
         </div>        
     </div>
-        
-        <nav class="vertical-nav">
-            <div class="end-box-icons">
-                <div class="icons-container">
-                    <span class="material-icons"><a href="#anchor-contact">alternate_email</a></span>
-                    <span class="material-icons"><a href="#top-anchor">home</a></span>
-                </div>
+    
+    <nav class="vertical-nav">
+        <div class="end-box-icons">
+            <div class="icons-container">
+                <span class="material-icons"><a href="#anchor-contact">alternate_email</a></span>
+                <span class="material-icons"><a href="#top-anchor">home</a></span>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <div id="anchor-contact"></div>
     <div class="contact-container">
@@ -95,13 +92,17 @@
             or satisfy any request, C'mon!
         </h2>
         <div class="contact-me-box">
-            <form action="" method="GET">
+            <form action="https://formspree.io/f/xwkajjbe" method="POST">
                 <div class="contact-form">
-                    <label for="full-name">Full Name</label>
-                    <input id="full-name" type="text" name="full-name" placeholder="Name & Surname" required>
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                    </label>
 
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="email" placeholder="youremail@example.com" required>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
                                 
                     <button class="send-data" type="submit">Send<span class="material-icons">send</span></button>
                 </div>
