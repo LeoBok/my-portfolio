@@ -458,6 +458,14 @@ h3 {
         display: block;
     }
 
+    .my-projects {
+        margin: 40px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
     .contact-container {
         padding: 20px;
     }
