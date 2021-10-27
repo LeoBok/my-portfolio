@@ -200,9 +200,19 @@ h3 {
 .contact-form input[type="email"] {
     width: 100%;
     height: 25px;
+}
 
+.contact-form input[type='email'],
+.contact-form textarea {
     border: 2px solid #424242;
     border-radius: 5px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .send-data {
@@ -267,7 +277,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 400px) {
+@media only screen and (min-width: 280px) and (max-width: 400px) {
     .my-projects {
         padding: 22px;
         display: flex;
@@ -284,8 +294,8 @@ h3 {
         font-size: 20px;
     }
 
-    .contact-form input[type="text"], 
-    .contact-form input[type="email"] {
+    .contact-form input[type="email"],
+    .contact-form textarea {
         padding: 5px;
     }
 }
@@ -351,12 +361,31 @@ h3 {
         margin: 50px;
     }
 
+    .my-projects h1 {
+        text-align: center;
+    }
+
+    .my-projects a {
+        font-size: 23px;
+    }
+
     .material-icons {
         font-size: 35px;
     }
 
-    .contact-form input[type="text"],
-    .contact-form input[type="email"] {
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    button.send-data {
+        width: 30%;
+    }
+    
+    .contact-form input[type="email"],
+    .contact-form textarea {
         height: 30px;
         width: 75%;
     }
@@ -478,11 +507,14 @@ h3 {
         margin-bottom: 40px;
     }
 
-    .contact-form input[type="text"], 
     .contact-form input[type="email"] {
         margin-bottom: 40px;
         padding: 17px;
-        width: 70%;
+        width: 90%;
+    }
+
+    input, textarea {
+        padding: 30px;
     }
 
     .send-data {
